@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "NNLayerBackedLabel"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "CATextLayerで実装された高速なラベル用UIViewです"
 
 # This description is used to generate tags and improve search results.
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
-hoge
+CATextLayerで実装された高速なラベル用UIViewです。
                        DESC
 
   s.homepage         = "https://github.com/noughts/NNLayerBackedLabel"

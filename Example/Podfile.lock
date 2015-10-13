@@ -1,0 +1,14 @@
+PODS:
+  - NNLayerBackedLabel (0.1.0)
+
+DEPENDENCIES:
+  - NNLayerBackedLabel (from `../`)
+
+EXTERNAL SOURCES:
+  NNLayerBackedLabel:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NNLayerBackedLabel: e520e32ab233e1f48d12adea8cf79082e589d533
+
+COCOAPODS: 0.38.2

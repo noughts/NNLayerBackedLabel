@@ -30,6 +30,9 @@
 
 
 -(void)setFontSize:(NSUInteger)fontSize{
+	if( fontSize == _layer.fontSize ){
+		return;
+	}
 	UIFont* font = [UIFont systemFontOfSize:fontSize];
 	_layer.font = (__bridge CFTypeRef _Nullable)(font);
 	_layer.fontSize = fontSize;
@@ -38,6 +41,9 @@
 
 
 -(void)setText:(NSString *)text{
+	if( [text isEqualToString:_layer.string] ){
+		return;
+	}
 	_layer.string = text;
 	[self invalidateIntrinsicContentSize];/// AutoLayoutのサイズ更新
 }

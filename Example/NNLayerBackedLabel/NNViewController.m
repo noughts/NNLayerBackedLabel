@@ -19,13 +19,14 @@
 	// Do any additional setup after loading the view, typically from a nib.
 	
 	_label.text = @"hoge";
+	_label.fontSize = 32;
 }
 
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+-(IBAction)onButtonTap:(id)sender{
+	_label.text = @"fugafuga";
 }
+
 
 @end

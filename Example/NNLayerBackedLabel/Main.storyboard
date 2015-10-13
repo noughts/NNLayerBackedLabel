@@ -17,15 +17,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" placeholderIntrinsicWidth="240" placeholderIntrinsicHeight="32" translatesAutoresizingMaskIntoConstraints="NO" id="fcL-iO-rrq" customClass="NNLayerBackedLabel">
-                                <rect key="frame" x="40" y="268" width="240" height="32"/>
+                            <view contentMode="scaleToFill" placeholderIntrinsicWidth="100" placeholderIntrinsicHeight="32" translatesAutoresizingMaskIntoConstraints="NO" id="fcL-iO-rrq" customClass="NNLayerBackedLabel">
+                                <rect key="frame" x="110" y="268" width="100" height="32"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="0.20999999999999999" colorSpace="calibratedRGB"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hdf-T1-4Yk">
+                                <rect key="frame" x="218" y="269" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="onButtonTap:" destination="whP-gf-Uak" eventType="touchUpInside" id="PYh-xy-igN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="fcL-iO-rrq" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="8nM-08-DuP"/>
+                            <constraint firstItem="hdf-T1-4Yk" firstAttribute="leading" secondItem="fcL-iO-rrq" secondAttribute="trailing" constant="8" symbolic="YES" id="DZC-Ek-Ior"/>
                             <constraint firstItem="fcL-iO-rrq" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" id="Jyo-aJ-Q2Z"/>
+                            <constraint firstItem="hdf-T1-4Yk" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" id="wK7-zZ-Pf7"/>
                         </constraints>
                     </view>
                     <connections>

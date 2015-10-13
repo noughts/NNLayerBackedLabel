@@ -12,6 +12,6 @@
 
 
 @property(nonatomic) NSString* text;
-
+@property(nonatomic) NSUInteger fontSize;
 
 @end

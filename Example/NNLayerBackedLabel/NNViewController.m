@@ -7,18 +7,20 @@
 //
 
 #import "NNViewController.h"
+#import "NNLayerBackedLabel.h"
 
-@interface NNViewController ()
-
-@end
-
-@implementation NNViewController
+@implementation NNViewController{
+	__weak IBOutlet NNLayerBackedLabel* _label;
+}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+	
+	_label.text = @"hoge";
 }
+
 
 - (void)didReceiveMemoryWarning
 {

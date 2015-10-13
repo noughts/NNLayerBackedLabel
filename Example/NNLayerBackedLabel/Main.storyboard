@@ -16,8 +16,21 @@
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" placeholderIntrinsicWidth="240" placeholderIntrinsicHeight="32" translatesAutoresizingMaskIntoConstraints="NO" id="fcL-iO-rrq" customClass="NNLayerBackedLabel">
+                                <rect key="frame" x="40" y="268" width="240" height="32"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="0.20999999999999999" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="fcL-iO-rrq" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="8nM-08-DuP"/>
+                            <constraint firstItem="fcL-iO-rrq" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" id="Jyo-aJ-Q2Z"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="_label" destination="fcL-iO-rrq" id="jMa-dx-Frn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

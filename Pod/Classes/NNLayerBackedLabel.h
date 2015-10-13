@@ -10,4 +10,8 @@
 
 @interface NNLayerBackedLabel : UIView
 
+
+@property(nonatomic) NSString* text;
+
+
 @end

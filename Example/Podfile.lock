@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  NNLayerBackedLabel: e520e32ab233e1f48d12adea8cf79082e589d533
+  NNLayerBackedLabel: 22298d4407fc5468c8bc7fb98795f8ebfb1fabc5
 
 COCOAPODS: 0.38.2
